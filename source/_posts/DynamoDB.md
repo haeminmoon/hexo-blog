@@ -1,4 +1,6 @@
 ---
+title: DynamoDB
+date: 2018-02-01
 categories: [ DynamoDB ]
 tags: [ Paas, Saas, Amazone, AWS, DB, NoSQL, DynamoDB ]
 ---

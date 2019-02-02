@@ -59,37 +59,37 @@ sidebar:
     author_links:
         github:
             title: global.github
-            url: https://github.com/
+            url: https://github.com/heaminmoon
             icon: fab fa-github
-        stack_overflow:
-            title: global.stack_overflow
-            url: http://stackoverflow.com/users
-            icon: fab fa-stack-overflow
-        twitter:
-            title: global.twitter
-            url: https://twitter.com/
-            icon: fab fa-twitter
+        # stack_overflow:
+        #     title: global.stack_overflow
+        #     url: http://stackoverflow.com/users
+        #     icon: fab fa-stack-overflow
+        # twitter:
+        #     title: global.twitter
+        #     url: https://twitter.com/
+        #     icon: fab fa-twitter
         facebook:
             title: global.facebook
-            url: https://facebook.com/
+            url: https://www.facebook.com/profile.php?id=100001720592400
             icon: fab fa-facebook
-        google_plus:
-            title: global.google_plus
-            url: https://plus.google.com/
-            icon: fab fa-google-plus
+        # google_plus:
+        #     title: global.google_plus
+        #     url: https://plus.google.com/
+        #     icon: fab fa-google-plus
         linked_in:
             title: global.linkedin
-            url: https://www.linkedin.com/profile/
+            url: https://www.linkedin.com/in/haemin-moon-a0284315a/
             icon: fab fa-linkedin
         mail:
             title: global.mail
-            url: mailto
+            url: mailto://mym0846@gmail.com
             icon: fa fa-envelope
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: fa fa-rss
+    # rss:
+    #     rss:
+    #         title: global.rss
+    #         url: /atom.xml
+    #         icon: fa fa-rss
 
 
 # --------------------
@@ -187,7 +187,8 @@ tag_pagination: true
 # ---------------
 
 # Your Disqus shortname
-disqus_shortname:
+disqus_shortname: haeminmoon-github-io # Short-name
+
 # Your Gitment information
 # Read https://github.com/imsun/gitment#get-started to setup Gitment
 gitment:
