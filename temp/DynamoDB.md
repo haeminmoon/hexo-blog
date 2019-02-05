@@ -1,13 +1,13 @@
 ---
 title: DynamoDB
-date: 2018-02-01
+date: 2019-02-01
 categories: [ DynamoDB ]
 tags: [ Paas, Saas, Amazone, AWS, DB, NoSQL, DynamoDB ]
 ---
 
-# DynamoDB
-
 AWS의 대표적인 Full-Managed NoSQL 서비스인 DynamoDB에 대해 정리한 글입니다.
+
+<!-- more -->
 
 ## RDBMS, NoSQL 비교
 

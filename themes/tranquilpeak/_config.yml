@@ -83,7 +83,7 @@ sidebar:
             icon: fab fa-linkedin
         mail:
             title: global.mail
-            url: mailto://mym0846@gmail.com
+            url: mailto:mym0846@gmail.com
             icon: fa fa-envelope
     # rss:
     #     rss:
@@ -117,13 +117,13 @@ header:
 
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
-    location:
+    email: mym0846@gmail.com
+    location: Korea
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture:
+    picture: profile.jpg
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter:
     # Your personal google plus profile id, not your blog or business page id.

@@ -6,8 +6,8 @@
 title: Harace's Tech Blog
 subtitle: TIL
 description: Today, I learn
-keywords: 
-author: Haemin Moon
+keywords:
+author: Harace Moon
 language: en
 timezone: 
 
@@ -31,7 +31,7 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: true # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
@@ -82,7 +82,23 @@ deploy:
   repo: https://github.com/haeminmoon/haeminmoon.github.io
   branch: master
 
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: haeminmoon-github-io # Short-name
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: haeminmoon-github-io # Short-name
+
+algolia:
+  appId: "BCG1DACE7A"
+  apiKey: "20fe66a6a899add3d02b51d769c5916a"
+  adminApiKey: "dc714021ec16afed68e0ed5ee8659b03"
+  chunkSize: 5000
+  indexName: "Harace's blog"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title

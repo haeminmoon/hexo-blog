@@ -76,6 +76,7 @@ post:
 
 author:
     # Your biography (Markdown and HTML supported)
-    bio: ""
+    bio: "Today, I learn"
     # Your job
-    job: ""
+    job: "Software Developer"
+
