@@ -5,7 +5,7 @@ categories: [ Javascript ]
 tags: [ Javascript, ES6+, Iterator ]
 ---
 
-Javascript의 Iterator와 ES6+에서의 순회 기법에 대해 정리한 글 입니다.
+Javascript의 Iterator와 ES6+에서의 순회 기법에 대해 정리한 글 입니다. 
 
 <!-- more -->
 

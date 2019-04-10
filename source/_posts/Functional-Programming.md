@@ -5,7 +5,7 @@ categories: [ Javascript ]
 tags: [ Javascript, ES6+ ]
 ---
 
-함수형 자바스크립트를 위한 기초 용어 및 지식을 정리한 글 입니다.
+함수형 자바스크립트를 위한 기초 용어 및 지식을 정리한 글 입니다. 
 
 <!-- more -->
 

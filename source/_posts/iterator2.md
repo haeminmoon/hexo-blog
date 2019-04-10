@@ -9,7 +9,7 @@ Javascript의 Iterator 대해 정리한 글 입니다.
 
 <!-- more -->
 
-[Iterator - (1)](/2019/02/06/Iterator-1/)에서는 Iterator와 ES6의 순회에 대해 알아보았으니, Iterator의 정확한 개념과 동작 방식에 대해 알아보고자 한다.
+[Iterator - (1)](/2019/02/06/Iterator-1/)에서는 Iterator와 ES6의 순회에 대해 알아보았으니, Iterator의 정확한 개념과 동작 방식에 대해 알아보고자 한다. 
 
 ## Iterator의 동작 방식
 {% tabbed_codeblock example_1 %}
