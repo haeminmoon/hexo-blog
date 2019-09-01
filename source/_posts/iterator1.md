@@ -16,13 +16,13 @@ Iterator는 기본적으로 리스트를 순회하기 위한 객체이다. 즉, 
 {% tabbed_codeblock example_1 %}
 <!-- tab js -->
 // Array - 배열
-var arr = [1, 2, 3];
+const arr = [1, 2, 3];
 for (var i = 0; i < arr.length; i++) {
     console.log(arr[i]); // 1 2 3
 }
 
 // Array like type - 유사배열
-var str = 'abc';
+const str = 'abc';
 for (var i = 0; i < str.length; i++) {
     console.log(str[i]); // a b c
 }
@@ -34,8 +34,8 @@ for (var i = 0; i < str.length; i++) {
 {% tabbed_codeblock example_2 %}
 <!-- tab js -->
 // Array - 배열
-const list = [1, 2, 3];
-for (const i of list) {
+const arr = [1, 2, 3];
+for (const i of arr) {
     console.log(i); // 1 2 3
 }
 
@@ -62,15 +62,15 @@ ES6부터는 Array 자료형 뿐만 아니라 Map, Set같은 자료형도 for...
 <!-- tab js -->
 // Array
 const arr = [1, 2, 3];
-for (const i of list) console.log(i); // 1 2 3
+for (const i of arr) console.log(i); // 1 2 3
 
 // Set
 const set = new Set([1, 2, 3]);
-for (const i of list) console.log(i); // 1 2 3
+for (const i of set) console.log(i); // 1 2 3
 
 // Map
 const map = new Map(['a', 1], ['b', 2], ['c', 3]);
-for (const i of list) console.log(i); // ['a', 1], ['b', 2], ['c', 3]
+for (const i of map) console.log(i); // ['a', 1], ['b', 2], ['c', 3]
 <!-- endtab -->
 {% endtabbed_codeblock %}
 
@@ -84,10 +84,10 @@ for (const i of list) console.log(i); // ['a', 1], ['b', 2], ['c', 3]
 // Array
 const arr = [1, 2, 3];
 arr[Symbol.iterator] = null;
-for (const i of list) console.log(i); // Uncaugth Type Error: arr is not iterable.
+for (const i of arr) console.log(i); // Uncaugth Type Error: arr is not iterable.
 <!-- endtab -->
 {% endtabbed_codeblock %}  
 
 **example_4**의 예제는 'iterator - 자료형 - for...of'가 서로 연관성이 있음을 말해주고 있는데, 이 연관성이 바로 Iterable protocol에 의해 동작한다는 것이다. (연관성에 대한 자세한 내용은 다음 장에서 확인.)
 
-Iterator에 대한 이해를 돕기 위해 ES6에서의 순회 기법에 대해 확인하였으니, 본격적으로 Iterator에 대해 알아보고자 한다. [Iterator - (2)](/2019/02/06/Iterator-2/)
+Iterator에 대한 이해를 돕기 위해 ES6에서의 순회 기법에 대해 확인하였으니, 본격적으로 Iterator에 대해 알아보고자 한다. [Iterator - (2)](/2019/02/06/iterator-2/)

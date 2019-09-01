@@ -9,7 +9,7 @@ Javascript의 Iterator 대해 정리한 글 입니다.
 
 <!-- more -->
 
-[Iterator - (1)](/2019/02/06/Iterator-1/)에서는 Iterator와 ES6의 순회에 대해 알아보았으니, Iterator의 정확한 개념과 동작 방식에 대해 알아보고자 한다. 
+[Iterator - (1)](/2019/02/06/iterator-1/)에서는 Iterator와 ES6의 순회에 대해 알아보았으니, Iterator의 정확한 개념과 동작 방식에 대해 알아보고자 한다. 
 
 ## Iterator의 동작 방식
 {% tabbed_codeblock example_1 %}
@@ -50,7 +50,7 @@ for (const i of iter) console.log(i) // 2 3
 <!-- tab js -->
 // Array
 const arr = [1, 2, 3];
-for (const i of list) console.log(i); // 1 2 3
+for (const i of arr) console.log(i); // 1 2 3
 <!-- endtab -->
 {% endtabbed_codeblock %}
 
