@@ -21,6 +21,8 @@ W3C에서는 HTML의 한계 및 이슈들을 개선하고자 "웹 컴포넌트(W
 #### 웹 컴포넌트의 구성 : 
 - "Templates, Shadow DOM, HTML Imports, Custom Element" 으로 구성되어 있다.
 
+![Web-Components](https://poiemaweb.com/img/web-component.png)
+
 ## 웹 컴포넌트는 왜 이제서야 화두가 되고 있는가?
 
 - 사실 웹 컴포넌트 기술은, 이미 오래 전부터 시작된 기술이었고 우리가 인지하기 훨씬 이전부터 표준이 정의되어 있었다. 하지만 계속해서 주목을 받지 못하다가 'Google - Polymer'에 의해 다시 수면 위로 떠오르고 있는 실정이다.
@@ -59,6 +61,7 @@ W3C에서는 HTML의 한계 및 이슈들을 개선하고자 "웹 컴포넌트(W
 
 "프레임워크에 의존하지 말고 원하는 요구 기능을 표준으로 정하고 표준대로 코딩하자." 
 > 표준 코드로 작성한 기능은 성능 좋고 호환성이 좋은 웹 앱을 개발 할 수 있다!
+
 
 
 https://medium.com/@kyuwoo.choi/%EC%9B%B9-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-2-%EC%BB%A4%EC%8A%A4%ED%85%80-%EC%97%98%EB%A6%AC%EB%A8%BC%ED%8A%B8-f4112af8f2f8
