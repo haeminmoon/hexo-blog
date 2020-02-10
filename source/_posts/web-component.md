@@ -66,7 +66,7 @@ W3C에서는 HTML의 한계 및 이슈들을 개선하고자 "웹 컴포넌트(W
 #### 1. Custom Element
 
 **[ 정의 ]**
-  - HTML Element를 개발작 직접 정의하여 사용할 수 있도록 제공되는 기능이다.
+  - HTML Element를 개발자가 직접 정의하여 사용할 수 있도록 제공되는 기능이다.
 
 **[ Custom Element 알아보기 ]**
 {% tabbed_codeblock example_1 %}
